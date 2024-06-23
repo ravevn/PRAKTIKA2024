@@ -1,0 +1,30 @@
+.header {
+  background-color: white; 
+  padding: 20px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.back-arrow, 
+.profile-icon {
+  color: black; 
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.profile-icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+  
+  
